@@ -9,22 +9,26 @@
 import Foundation
 
 let Data = [
-  "01-09": ["DisplayAddress": "ANDERSON HALL 305 BATES AVE PARMA, ID 83660",
+  [
+    "Precinct": "01-09",
+    "DisplayAddress": "ANDERSON HALL 305 BATES AVE PARMA, ID 83660",
     "Address": "305 BATES AVE PARMA, ID 83660",
     "PollingPlaceName": "ANDERSON HALL",
     "LocationName": "305 BATES AVE",
     "LocationDesc": "",
     "CityStateZip": "PARMA, ID 83660",
-    "Latitude": 43.786266,
-    "Longitude": -116.943101
+    "Latitude": "43.786266",
+    "Longitude": "-116.943101"
   ],
-  "02-09": ["DisplayAddress": "NOTUS COMMUNITY CENTER 389 1ST ST NOTUS, ID 83656",
+  [
+    "Precinct": "02-09",
+    "DisplayAddress": "NOTUS COMMUNITY CENTER 389 1ST ST NOTUS, ID 83656",
     "Address": "389 1ST ST NOTUS, ID 83656",
     "PollingPlaceName": "NOTUS COMMUNITY CENTER",
     "LocationName": "389 1ST ST",
     "LocationDesc": "",
     "CityStateZip": "NOTUS, ID 83656",
-    "Latitude": 43.725804,
-    "Longitude": -116.800402,
+    "Latitude": "43.725804",
+    "Longitude": "-116.800402"
   ]
 ]
