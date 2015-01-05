@@ -29,9 +29,12 @@ class ViewController: UIViewController {
     //    mapView.addAnnotation(annotation)
     
     for data in Data {
-      for item in data.keys {
-        data.values
-        println("\(item): ")
+      // I wonder if data.keys and data.values dump the dictionary in the same order?
+      let keys = [String](data.keys)
+      let values = [String](data.values)
+      
+      for i in 1..<keys.count {
+        println("\(keys[i]): \(values[i])")
       }
     }
   }
