@@ -33,8 +33,12 @@ class ViewController: UIViewController {
       let keys = [String](data.keys)
       let values = [String](data.values)
       
-      for i in 1..<keys.count {
-        println("\(keys[i]): \(values[i])")
+//      for i in 1..<keys.count {
+//        println("\(keys[i]): \(values[i])")
+//      }
+      
+      if let index = find(keys, "Precinct") {
+        println("Precinct: \(values[index])")
       }
     }
   }
