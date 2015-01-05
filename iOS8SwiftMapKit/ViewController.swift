@@ -22,33 +22,25 @@ class ViewController: UIViewController {
     let region = MKCoordinateRegion(center: location, span: span)
     mapView.setRegion(region, animated: true)
     
-    //    let annotation = MKPointAnnotation()
-    //    annotation.setCoordinate(location)
-    //    annotation.title = "Big Ben"
-    //    annotation.subtitle = "London"
-    //    mapView.addAnnotation(annotation)
-    
     for data in Data {
       // I wonder if data.keys and data.values dump the dictionary in the same order?
+      // Woot - they ARE!
       let keys = [String](data.keys)
       let values = [String](data.values)
       
       var precinct = ""
       if let index = find(keys, "PrecinctNo") {
         precinct = values[index]
-        print("Precinct: \(precinct)")
       }
       
       var lat:Double = 0.0
       if let index = find(keys, "Latitude") {
         lat = (values[index] as NSString).doubleValue
-        print(" Lat: \(lat)")
       }
       
       var lon:Double = 0.0
       if let index = find(keys, "Longitude") {
         lon = (values[index] as NSString).doubleValue
-        print(" Lon: \(lon)")
       }
       
       if let index = find(keys, "PollingPlaceName") {
@@ -59,7 +51,6 @@ class ViewController: UIViewController {
       if let index = find(keys, "Address") {
         address = values[index]
       }
-      println()
       
       let precinctLocation = CLLocationCoordinate2D(latitude: lat, longitude: lon)
       let annotation = MKPointAnnotation()
