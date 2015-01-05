@@ -20,7 +20,8 @@ class ViewController: UIViewController {
     let location = CLLocationCoordinate2D (latitude: 43.524492, longitude: -116.614745)
     let span = MKCoordinateSpanMake(0.85, 0.85)
     let region = MKCoordinateRegion(center: location, span: span)
-    mapView.setRegion(region, animated: true)
+    self.mapView.setRegion(region, animated: true)
+    self.mapView.mapType = MKMapTypeStandard//MKMapTypeHybrid
     
     for data in Data {
       // I wonder if data.keys and data.values dump the dictionary in the same order?
@@ -53,11 +54,13 @@ class ViewController: UIViewController {
       }
       
       let precinctLocation = CLLocationCoordinate2D(latitude: lat, longitude: lon)
+      
       let annotation = MKPointAnnotation()
       annotation.setCoordinate(precinctLocation)
       annotation.title = precinct
       annotation.subtitle = address
-      mapView.addAnnotation(annotation)
+      
+      self.mapView.addAnnotation(annotation)
     }
   }
   
