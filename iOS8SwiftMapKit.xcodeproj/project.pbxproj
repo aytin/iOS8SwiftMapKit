@@ -40,7 +40,7 @@
 		BE9261561A5A4C2B00D66F17 /* iOS8SwiftMapKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS8SwiftMapKitTests.swift; sourceTree = "<group>"; };
 		BE9261601A5A4CA400D66F17 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BE9261611A5A4CA400D66F17 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BE9261661A5A4F6300D66F17 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		BE9261661A5A4F6300D66F17 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; wrapsLines = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -417,6 +417,7 @@
 				BE92615C1A5A4C2B00D66F17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE92615D1A5A4C2B00D66F17 /* Build configuration list for PBXNativeTarget "iOS8SwiftMapKitTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +426,7 @@
 				BE92615F1A5A4C2B00D66F17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
