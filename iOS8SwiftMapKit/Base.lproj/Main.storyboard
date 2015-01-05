@@ -28,6 +28,9 @@
                             <constraint firstAttribute="trailing" secondItem="kkD-WP-Ucj" secondAttribute="trailing" id="bNB-Lc-7Ot"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="kkD-WP-Ucj" id="5HT-ST-WrV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
