@@ -34,7 +34,7 @@ class ViewController: UIViewController {
       let values = [String](data.values)
       
       var precinct = ""
-      if let index = find(keys, "Precinct") {
+      if let index = find(keys, "PrecinctNo") {
         precinct = values[index]
         print("Precinct: \(precinct)")
       }
