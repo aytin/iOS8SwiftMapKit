@@ -7,7 +7,7 @@ var PrecinctData = [{
                     "CityStateZip": "PARMA, ID 83660",
                     "PrecinctNo": "01-09",
                     "Latitude": 43.786266,
-                    "Longitude": - 116.943101,
+                    "Longitude": -116.943101,
                     "Error": ""
                     }, {
                     "DisplayAddress": "NOTUS COMMUNITY CENTER 389 1ST ST NOTUS, ID 83656",
@@ -18,18 +18,18 @@ var PrecinctData = [{
                     "CityStateZip": "NOTUS, ID 83656",
                     "PrecinctNo": "02-09",
                     "Latitude": 43.725804,
-                    "Longitude": - 116.800402,
+                    "Longitude": -116.800402,
                     "Error": ""
                     }, {
-                    "DisplayAddress": "PURPLE SAGE GOLF COURSE 15192 PURPLE SAGE RD CLUBHOUSE - NORTH OF CALDWELL CALDWELL, ID 83607",
+                    "DisplayAddress": "PURPLE SAGE GOLF COURSE 15192 PURPLE SAGE RD CLUBHOUSE -NORTH OF CALDWELL CALDWELL, ID 83607",
                     "Address": "15192 PURPLE SAGE RD CALDWELL, ID 83607",
                     "PollingPlaceName": "PURPLE SAGE GOLF COURSE",
                     "LocationName": "15192 PURPLE SAGE RD",
-                    "LocationDesc": "CLUBHOUSE - NORTH OF CALDWELL",
+                    "LocationDesc": "CLUBHOUSE -NORTH OF CALDWELL",
                     "CityStateZip": "CALDWELL, ID 83607",
                     "PrecinctNo": "03-09",
                     "Latitude": 43.735839,
-                    "Longitude": - 116.696920,
+                    "Longitude": -116.696920,
                     "Error": ""
                     }, {
                     "DisplayAddress": "CALDWELL PUBLIC LIBRARY 1010 DEARBORN ST CALDWELL, ID 83605",
@@ -40,7 +40,7 @@ var PrecinctData = [{
                     "CityStateZip": "CALDWELL, ID 83605",
                     "PrecinctNo": "07-10",
                     "Latitude": 43.661283,
-                    "Longitude": - 116.687864,
+                    "Longitude": -116.687864,
                     "Error": ""
                     }, {
                     "DisplayAddress": "CANYON HILL NAZARENE CHURCH 903 N MICHIGAN AVE CALDWELL, ID 83605",
@@ -51,7 +51,7 @@ var PrecinctData = [{
                     "CityStateZip": "CALDWELL, ID 83605",
                     "PrecinctNo": "08-10",
                     "Latitude": 43.677986,
-                    "Longitude": - 116.674971,
+                    "Longitude": -116.674971,
                     "Error": ""
                     }, {
                     "DisplayAddress": "FIRST BAPTIST CHURCH 221 E LINDEN ST CALDWELL, ID 83605",
@@ -62,7 +62,7 @@ var PrecinctData = [{
                     "CityStateZip": "CALDWELL, ID 83605",
                     "PrecinctNo": "09-10",
                     "Latitude": 43.648382,
-                    "Longitude": - 116.696385,
+                    "Longitude": -116.696385,
                     "Error": ""
                     }, {
                     "DisplayAddress": "UNITED METHODIST CHURCH 824 E LOGAN ST CALDWELL, ID 83605",
@@ -73,7 +73,7 @@ var PrecinctData = [{
                     "CityStateZip": "CALDWELL, ID 83605",
                     "PrecinctNo": "10-10",
                     "Latitude": 43.654531,
-                    "Longitude": - 116.688172,
+                    "Longitude": -116.688172,
                     "Error": ""
                     }, {
                     "DisplayAddress": "O'CONNOR FIELD HOUSE 2207 BLAINE ST CALDWELL EVENT CENTER CALDWELL, ID 83605",
@@ -84,7 +84,7 @@ var PrecinctData = [{
                     "CityStateZip": "CALDWELL, ID 83605",
                     "PrecinctNo": "11-10",
                     "Latitude": 43.654850,
-                    "Longitude": - 116.673244,
+                    "Longitude": -116.673244,
                     "Error": ""
                     }, {
                     "DisplayAddress": "VALLEY CHURCH 2900 LIFE WAY CALDWELL, ID 83605",
@@ -95,7 +95,7 @@ var PrecinctData = [{
                     "CityStateZip": "CALDWELL, ID 83605",
                     "PrecinctNo": "12-10",
                     "Latitude": 43.665180,
-                    "Longitude": - 116.662579,
+                    "Longitude": -116.662579,
                     "Error": ""
                     }, {
                     "DisplayAddress": "CALDWELL CHURCH OF CHRIST 4012 S 10TH AVE CORNER OF 10TH AND USTICK CALDWELL, ID 83605",
@@ -106,7 +106,7 @@ var PrecinctData = [{
                     "CityStateZip": "CALDWELL, ID 83605",
                     "PrecinctNo": "13-10",
                     "Latitude": 43.634072,
-                    "Longitude": - 116.693544,
+                    "Longitude": -116.693544,
                     "Error": ""
                     }, {
                     "DisplayAddress": "FAITH LUTHERAN CHURCH 2915 S MONTANA AVE CALDWELL, ID 83605",
@@ -117,7 +117,7 @@ var PrecinctData = [{
                     "CityStateZip": "CALDWELL, ID 83605",
                     "PrecinctNo": "14-10",
                     "Latitude": 43.643942,
-                    "Longitude": - 116.682882,
+                    "Longitude": -116.682882,
                     "Error": ""
                     }, {
                     "DisplayAddress": "SEVENTH-DAY ADVENTIST 2216 E LINDEN ST FRIENDSHIP HALL CALDWELL, ID 83605",
@@ -128,7 +128,7 @@ var PrecinctData = [{
                     "CityStateZip": "CALDWELL, ID 83605",
                     "PrecinctNo": "15-10",
                     "Latitude": 43.647942,
-                    "Longitude": - 116.670906,
+                    "Longitude": -116.670906,
                     "Error": ""
                     }, {
                     "DisplayAddress": "SAGE VALLEY MIDDLE SCHOOL 18070 SANTA ANNA AVE NAMPA, ID 83687",
@@ -139,7 +139,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83687",
                     "PrecinctNo": "16-10",
                     "Latitude": 43.634932,
-                    "Longitude": - 116.602050,
+                    "Longitude": -116.602050,
                     "Error": ""
                     }, {
                     "DisplayAddress": "LEWIS & CLARK ELEMENTARY SCHOOL 1102 LASTER ST S.E. SIDE OF BUILDING CALDWELL, ID 83605",
@@ -150,7 +150,7 @@ var PrecinctData = [{
                     "CityStateZip": "CALDWELL, ID 83605",
                     "PrecinctNo": "17-10",
                     "Latitude": 43.625150,
-                    "Longitude": - 116.684849,
+                    "Longitude": -116.684849,
                     "Error": ""
                     }, {
                     "DisplayAddress": "CALDWELL CHRISTIAN CHURCH 3207 E USTICK RD CALDWELL, ID 83607",
@@ -161,7 +161,7 @@ var PrecinctData = [{
                     "CityStateZip": "CALDWELL, ID 83607",
                     "PrecinctNo": "18-10",
                     "Latitude": 43.634372,
-                    "Longitude": - 116.659221,
+                    "Longitude": -116.659221,
                     "Error": ""
                     }, {
                     "DisplayAddress": "CALDWELL CHRISTIAN CHURCH 3207 E USTICK RD CALDWELL, ID 83607",
@@ -172,7 +172,7 @@ var PrecinctData = [{
                     "CityStateZip": "CALDWELL, ID 83607",
                     "PrecinctNo": "19-10",
                     "Latitude": 43.634372,
-                    "Longitude": - 116.659221,
+                    "Longitude": -116.659221,
                     "Error": ""
                     }, {
                     "DisplayAddress": "MELBA SENIOR CENTER 115 BASELINE RD MELBA, ID 83641",
@@ -183,7 +183,7 @@ var PrecinctData = [{
                     "CityStateZip": "MELBA, ID 83641",
                     "PrecinctNo": "26-11",
                     "Latitude": 43.371868,
-                    "Longitude": - 116.533285,
+                    "Longitude": -116.533285,
                     "Error": ""
                     }, {
                     "DisplayAddress": "LAKE SHORE DR BAPTIST CHURCH 8885 LAKE SHORE DR NAMPA, ID 83686",
@@ -194,7 +194,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83686",
                     "PrecinctNo": "27-11",
                     "Latitude": 43.509467,
-                    "Longitude": - 116.570549,
+                    "Longitude": -116.570549,
                     "Error": ""
                     }, {
                     "DisplayAddress": "SOUTHSIDE BLVD METHODIST CHURCH 5420 SOUTHSIDE BLVD NAMPA, ID 83686",
@@ -205,7 +205,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83686",
                     "PrecinctNo": "28-11",
                     "Latitude": 43.517860,
-                    "Longitude": - 116.532535,
+                    "Longitude": -116.532535,
                     "Error": ""
                     }, {
                     "DisplayAddress": "LAKE RIDGE ELEMENTARY SCHOOL 615 BURKE LANE NAMPA, ID 83686",
@@ -216,7 +216,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83686",
                     "PrecinctNo": "29-11",
                     "Latitude": 43.527370,
-                    "Longitude": - 116.583890,
+                    "Longitude": -116.583890,
                     "Error": ""
                     }, {
                     "DisplayAddress": "LAKEVUE ELEMENTARY SCHOOL 12843 CIRRUS DR NAMPA, ID 83651",
@@ -227,7 +227,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83651",
                     "PrecinctNo": "30-11",
                     "Latitude": 43.596298,
-                    "Longitude": - 116.649788,
+                    "Longitude": -116.649788,
                     "Error": ""
                     }, {
                     "DisplayAddress": "VALLIVUE MIDDLE SCHOOL 16412 S 10TH AVE CALDWELL, ID 83607",
@@ -238,7 +238,7 @@ var PrecinctData = [{
                     "CityStateZip": "CALDWELL, ID 83607",
                     "PrecinctNo": "31-11",
                     "Latitude": 43.609649,
-                    "Longitude": - 116.690402,
+                    "Longitude": -116.690402,
                     "Error": ""
                     }, {
                     "DisplayAddress": "VALLIVUE LIONS CLUBHOUSE 15047 RIVERSIDE RD CORNER OF RIVERSIDE RD & HOADLEY RD CALDWELL, ID 83607",
@@ -249,7 +249,7 @@ var PrecinctData = [{
                     "CityStateZip": "CALDWELL, ID 83607",
                     "PrecinctNo": "32-11",
                     "Latitude": 43.588787,
-                    "Longitude": - 116.728875,
+                    "Longitude": -116.728875,
                     "Error": ""
                     }, {
                     "DisplayAddress": "DEERFLAT FREE METHODIST CHURCH 17703 BEET RD CALDWELL, ID 83607",
@@ -260,7 +260,7 @@ var PrecinctData = [{
                     "CityStateZip": "CALDWELL, ID 83607",
                     "PrecinctNo": "33-11",
                     "Latitude": 43.627824,
-                    "Longitude": - 116.793881,
+                    "Longitude": -116.793881,
                     "Error": ""
                     }, {
                     "DisplayAddress": "FIRST SOUTHERN BAPTIST CHURCH 912 W LINDEN ST CALDWELL, ID 83605",
@@ -271,7 +271,7 @@ var PrecinctData = [{
                     "CityStateZip": "CALDWELL, ID 83605",
                     "PrecinctNo": "34-11",
                     "Latitude": 43.648936,
-                    "Longitude": - 116.709677,
+                    "Longitude": -116.709677,
                     "Error": ""
                     }, {
                     "DisplayAddress": "GREENLEAF CITY HALL 20523 WHITTIER DR GREENLEAF, ID 83626",
@@ -282,7 +282,7 @@ var PrecinctData = [{
                     "CityStateZip": "GREENLEAF, ID 83626",
                     "PrecinctNo": "35-11",
                     "Latitude": 43.669754,
-                    "Longitude": - 116.815588,
+                    "Longitude": -116.815588,
                     "Error": ""
                     }, {
                     "DisplayAddress": "CROSSROADS ASSEMBLY OF GOD CHURCH 20444 HWY 95 WILDER, ID 83676",
@@ -293,7 +293,7 @@ var PrecinctData = [{
                     "CityStateZip": "WILDER, ID 83676",
                     "PrecinctNo": "36-11",
                     "Latitude": 43.668204,
-                    "Longitude": - 116.911178,
+                    "Longitude": -116.911178,
                     "Error": ""
                     }, {
                     "DisplayAddress": "MTN VIEW NAZARENE CHURCH 26515 USTICK RD CORNER OF USTICK AND BATT RD WILDER, ID 83676",
@@ -304,7 +304,7 @@ var PrecinctData = [{
                     "CityStateZip": "WILDER, ID 83676",
                     "PrecinctNo": "37-11",
                     "Latitude": 43.631451,
-                    "Longitude": - 116.922826,
+                    "Longitude": -116.922826,
                     "Error": ""
                     }, {
                     "DisplayAddress": "ROSWELL BAPTIST CHURCH 28702 HWY. 18 PARMA, ID 83660",
@@ -315,7 +315,7 @@ var PrecinctData = [{
                     "CityStateZip": "PARMA, ID 83660",
                     "PrecinctNo": "38-11",
                     "Latitude": 43.749318,
-                    "Longitude": - 116.965690,
+                    "Longitude": -116.965690,
                     "Error": ""
                     }, {
                     "DisplayAddress": "OREGON TRAIL CHURCH OF GOD 23057 OLD HWY 30 CALDWELL, ID 83607",
@@ -326,7 +326,7 @@ var PrecinctData = [{
                     "CityStateZip": "CALDWELL, ID 83607",
                     "PrecinctNo": "39-11",
                     "Latitude": 43.706358,
-                    "Longitude": - 116.696282,
+                    "Longitude": -116.696282,
                     "Error": ""
                     }, {
                     "DisplayAddress": "MIDDLETON HEIGHTS ELEMENTARY SCHOOL 899 CEMETERY RD DETACHED GYM MIDDLETON, ID 83644",
@@ -337,7 +337,7 @@ var PrecinctData = [{
                     "CityStateZip": "MIDDLETON, ID 83644",
                     "PrecinctNo": "40-11",
                     "Latitude": 43.714428,
-                    "Longitude": - 116.634176,
+                    "Longitude": -116.634176,
                     "Error": ""
                     }, {
                     "DisplayAddress": "MIDDLETON MIDDLE SCHOOL 511 W MAIN ST DETACHED GYM MIDDLETON, ID 83644",
@@ -348,7 +348,7 @@ var PrecinctData = [{
                     "CityStateZip": "MIDDLETON, ID 83644",
                     "PrecinctNo": "41-11",
                     "Latitude": 43.705892,
-                    "Longitude": - 116.629226,
+                    "Longitude": -116.629226,
                     "Error": ""
                     }, {
                     "DisplayAddress": "LDS CHURCH 22500 LANSING LANE MIDDLETON, ID 83644",
@@ -359,7 +359,7 @@ var PrecinctData = [{
                     "CityStateZip": "MIDDLETON, ID 83644",
                     "PrecinctNo": "42-11",
                     "Latitude": 43.699215,
-                    "Longitude": - 116.572299,
+                    "Longitude": -116.572299,
                     "Error": ""
                     }, {
                     "DisplayAddress": "EAST CANYON ELEMENTARY 18408 NORTHSIDE BLVD NAMPA, ID 83687",
@@ -370,7 +370,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83687",
                     "PrecinctNo": "43-11",
                     "Latitude": 43.640288,
-                    "Longitude": - 116.572897,
+                    "Longitude": -116.572897,
                     "Error": ""
                     }, {
                     "DisplayAddress": "COLLEGE OF WESTERN IDAHO 2407 CALDWELL BLVD NAMPA, ID 83651",
@@ -381,7 +381,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83651",
                     "PrecinctNo": "49-12",
                     "Latitude": 43.609714,
-                    "Longitude": - 116.610773,
+                    "Longitude": -116.610773,
                     "Error": ""
                     }, {
                     "DisplayAddress": "KARCHER CHURCH OF THE NAZARENE 2515 W KARCHER RD NAMPA, ID 83651",
@@ -392,7 +392,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83651",
                     "PrecinctNo": "50-12",
                     "Latitude": 43.604090,
-                    "Longitude": - 116.612057,
+                    "Longitude": -116.612057,
                     "Error": ""
                     }, {
                     "DisplayAddress": "STEVENS-HENAGER COLLEGE 16819 N MARKET PLACE BLVD NAMPA, ID 83687",
@@ -403,7 +403,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83687",
                     "PrecinctNo": "51-12",
                     "Latitude": 43.613516,
-                    "Longitude": - 116.595062,
+                    "Longitude": -116.595062,
                     "Error": ""
                     }, {
                     "DisplayAddress": "BIRCH ELEMENTARY SCHOOL 6900 BIRCH LANE NAMPA, ID 83687",
@@ -414,7 +414,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83687",
                     "PrecinctNo": "52-12",
                     "Latitude": 43.612648,
-                    "Longitude": - 116.531510,
+                    "Longitude": -116.531510,
                     "Error": ""
                     }, {
                     "DisplayAddress": "EDMARK SUPERSTORE 15700 IDAHO CENTER BLVD SHOWROOM NAMPA, ID 83687",
@@ -425,7 +425,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83687",
                     "PrecinctNo": "53-12",
                     "Latitude": 43.601001,
-                    "Longitude": - 116.511758,
+                    "Longitude": -116.511758,
                     "Error": ""
                     }, {
                     "DisplayAddress": "CHURCH OF THE BRETHREN 11030 ORCHARD AVE FELLOWSHIP ROOM NAMPA, ID 83651",
@@ -436,7 +436,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83651",
                     "PrecinctNo": "54-12",
                     "Latitude": 43.591327,
-                    "Longitude": - 116.613772,
+                    "Longitude": -116.613772,
                     "Error": ""
                     }, {
                     "DisplayAddress": "KARCHER CHURCH OF THE NAZARENE 2515 W KARCHER RD FAMILY LIFE CENTER NAMPA, ID 83651",
@@ -447,7 +447,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83651",
                     "PrecinctNo": "55-12",
                     "Latitude": 43.604090,
-                    "Longitude": - 116.612057,
+                    "Longitude": -116.612057,
                     "Error": ""
                     }, {
                     "DisplayAddress": "NAMPA CIVIC CENTER 311 3RD ST S WEST SIDE ENTRANCE NAMPA, ID 83651",
@@ -458,7 +458,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83651",
                     "PrecinctNo": "56-12",
                     "Latitude": 43.583308,
-                    "Longitude": - 116.571627,
+                    "Longitude": -116.571627,
                     "Error": ""
                     }, {
                     "DisplayAddress": "SNAKE RIVER ELEMENTARY SCHOOL 500 STAMPEDE DR NAMPA, ID 83687",
@@ -469,7 +469,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83687",
                     "PrecinctNo": "57-12",
                     "Latitude": 43.588849,
-                    "Longitude": - 116.546392,
+                    "Longitude": -116.546392,
                     "Error": ""
                     }, {
                     "DisplayAddress": "EDMARK SUPERSTORE 15700 IDAHO CENTER BLVD SHOWROOM NAMPA, ID 83687",
@@ -480,7 +480,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83687",
                     "PrecinctNo": "58-12",
                     "Latitude": 43.601001,
-                    "Longitude": - 116.511758,
+                    "Longitude": -116.511758,
                     "Error": ""
                     }, {
                     "DisplayAddress": "CHURCH OF THE BRETHREN 11030 ORCHARD AVE NAMPA, ID 83651",
@@ -491,7 +491,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83651",
                     "PrecinctNo": "59-12",
                     "Latitude": 43.590727,
-                    "Longitude": - 116.613672,
+                    "Longitude": -116.613672,
                     "Error": ""
                     }, {
                     "DisplayAddress": "CHRISTIAN FAITH CENTER 31 S MIDLAND BLVD NAMPA, ID 83651",
@@ -502,7 +502,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83651",
                     "PrecinctNo": "60-12",
                     "Latitude": 43.573342,
-                    "Longitude": - 116.593740,
+                    "Longitude": -116.593740,
                     "Error": ""
                     }, {
                     "DisplayAddress": "NAMPA CIVIC CENTER 311 3RD ST S WEST SIDE ENTRANCE NAMPA, ID 83651",
@@ -513,7 +513,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83651",
                     "PrecinctNo": "61-12",
                     "Latitude": 43.583308,
-                    "Longitude": - 116.571627,
+                    "Longitude": -116.571627,
                     "Error": ""
                     }, {
                     "DisplayAddress": "ENDEAVOR ELEMENTARY SCHOOL 2824 E VICTORY RD NAMPA, ID 83687",
@@ -524,7 +524,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83687",
                     "PrecinctNo": "69-13",
                     "Latitude": 43.576767,
-                    "Longitude": - 116.535189,
+                    "Longitude": -116.535189,
                     "Error": ""
                     }, {
                     "DisplayAddress": "PARK RIDGE ELEMENTARY SCHOOL 3313 E PARK RIDGE DR NAMPA, ID 83687",
@@ -535,7 +535,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83687",
                     "PrecinctNo": "70-13",
                     "Latitude": 43.570135,
-                    "Longitude": - 116.529916,
+                    "Longitude": -116.529916,
                     "Error": ""
                     }, {
                     "DisplayAddress": "CHRISTIAN FAITH CENTER 31 S MIDLAND BLVD NAMPA, ID 83651",
@@ -546,7 +546,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83651",
                     "PrecinctNo": "71-13",
                     "Latitude": 43.573342,
-                    "Longitude": - 116.593740,
+                    "Longitude": -116.593740,
                     "Error": ""
                     }, {
                     "DisplayAddress": "FIRST UNITED PRESBYTERIAN CHURCH 400 LAKE LOWELL AVE NAMPA, ID 83686",
@@ -557,7 +557,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83686",
                     "PrecinctNo": "72-13",
                     "Latitude": 43.562148,
-                    "Longitude": - 116.578813,
+                    "Longitude": -116.578813,
                     "Error": ""
                     }, {
                     "DisplayAddress": "NAMPA FIRST CHURCH OF THE NAZARENE 601 16TH AVE S NAMPA, ID 83651",
@@ -568,7 +568,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83651",
                     "PrecinctNo": "73-13",
                     "Latitude": 43.572374,
-                    "Longitude": - 116.561686,
+                    "Longitude": -116.561686,
                     "Error": ""
                     }, {
                     "DisplayAddress": "OWYHEE ELEMENTARY SCHOOL 2300 W IOWA AVENUE NAMPA, ID 83686",
@@ -579,7 +579,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83686",
                     "PrecinctNo": "74-13",
                     "Latitude": 43.555258,
-                    "Longitude": - 116.608801,
+                    "Longitude": -116.608801,
                     "Error": ""
                     }, {
                     "DisplayAddress": "IOWA ELEMENTARY SCHOOL 626 W IOWA AVE NAMPA, ID 83686",
@@ -590,7 +590,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83686",
                     "PrecinctNo": "75-13",
                     "Latitude": 43.555312,
-                    "Longitude": - 116.584020,
+                    "Longitude": -116.584020,
                     "Error": ""
                     }, {
                     "DisplayAddress": "COLLEGE CHURCH OF THE NAZARENE 504 E. DEWEY AVE. WEST SIDE ENTRANCE NAMPA, ID 83686",
@@ -601,7 +601,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83686",
                     "PrecinctNo": "76-13",
                     "Latitude": 43.563817,
-                    "Longitude": - 116.567501,
+                    "Longitude": -116.567501,
                     "Error": ""
                     }, {
                     "DisplayAddress": "NAMPA FIRST CHURCH OF THE NAZARENE 601 16TH AVE S FERDINAND HALL BACK SIDE OF THE CHURCH NAMPA, ID 83651",
@@ -612,7 +612,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83651",
                     "PrecinctNo": "77-13",
                     "Latitude": 43.572160,
-                    "Longitude": - 116.561445,
+                    "Longitude": -116.561445,
                     "Error": ""
                     }, {
                     "DisplayAddress": "NEW HOPE BAPTIST CHURCH 1829 W IOWA AVE NAMPA, ID 83686",
@@ -623,7 +623,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83686",
                     "PrecinctNo": "78-13",
                     "Latitude": 43.553964,
-                    "Longitude": - 116.603795,
+                    "Longitude": -116.603795,
                     "Error": ""
                     }, {
                     "DisplayAddress": "BETHEL CHURCH OF THE NAZARENE 3001 12TH AVE RD NAMPA, ID 83686",
@@ -634,7 +634,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83686",
                     "PrecinctNo": "79-13",
                     "Latitude": 43.540033,
-                    "Longitude": - 116.573647,
+                    "Longitude": -116.573647,
                     "Error": ""
                     }, {
                     "DisplayAddress": "FIRST UNITED METHODIST CHURCH 2717 12TH AVE RD NAMPA, ID 83686",
@@ -645,7 +645,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83686",
                     "PrecinctNo": "80-13",
                     "Latitude": 43.542382,
-                    "Longitude": - 116.574011,
+                    "Longitude": -116.574011,
                     "Error": ""
                     }, {
                     "DisplayAddress": "GREENHURST ELEMENTARY SCHOOL 1701 DISCOVERY PL NAMPA, ID 83686",
@@ -656,7 +656,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83686",
                     "PrecinctNo": "81-13",
                     "Latitude": 43.552690,
-                    "Longitude": - 116.539156,
+                    "Longitude": -116.539156,
                     "Error": ""
                     }, {
                     "DisplayAddress": "RONALD REAGAN ELEMENTARY SCH 3400 SOUTHSIDE BLVD NAMPA, ID 83686",
@@ -667,7 +667,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83686",
                     "PrecinctNo": "82-13",
                     "Latitude": 43.535685,
-                    "Longitude": - 116.531783,
+                    "Longitude": -116.531783,
                     "Error": ""
                     }, {
                     "DisplayAddress": "CHRISTIAN FAITH CENTER 31 S MIDLAND BLVD NAMPA, ID 83651",
@@ -678,7 +678,7 @@ var PrecinctData = [{
                     "CityStateZip": "NAMPA, ID 83651",
                     "PrecinctNo": "62-12",
                     "Latitude": 43.573342,
-                    "Longitude": - 116.593740,
+                    "Longitude": -116.593740,
                     "Error": ""
                     }, {
                     "DisplayAddress": "OREGON TRAIL CHURCH OF GOD 23057 OLD HWY 30 CALDWELL, ID 83607",
@@ -689,7 +689,7 @@ var PrecinctData = [{
                     "CityStateZip": "CALDWELL, ID 83607",
                     "PrecinctNo": "20-10",
                     "Latitude": 43.706312,
-                    "Longitude": - 116.696267,
+                    "Longitude": -116.696267,
                     "Error": ""
                     }, {
                     "DisplayAddress": "NOTUS COMMUNITY CENTER 389 1ST ST NOTUS, ID 83656",
@@ -700,7 +700,7 @@ var PrecinctData = [{
                     "CityStateZip": "NOTUS, ID 83656",
                     "PrecinctNo": "44-11",
                     "Latitude": 43.725804,
-                    "Longitude": - 116.800402,
+                    "Longitude": -116.800402,
                     "Error": ""
                     }
                     ];
