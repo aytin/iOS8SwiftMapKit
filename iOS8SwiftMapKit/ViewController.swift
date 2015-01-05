@@ -39,15 +39,15 @@ class ViewController: UIViewController {
         print("Precinct: \(precinct)")
       }
       
-      var lat:Float = 0.0
+      var lat:Double = 0.0
       if let index = find(keys, "Latitude") {
-        lat = (values[index] as NSString).floatValue
+        lat = (values[index] as NSString).doubleValue
         print(" Lat: \(lat)")
       }
       
-      var lon:Float = 0.0
+      var lon:Double = 0.0
       if let index = find(keys, "Longitude") {
-        lon = (values[index] as NSString).floatValue
+        lon = (values[index] as NSString).doubleValue
         print(" Lon: \(lon)")
       }
       
