@@ -13,6 +13,7 @@
 		BE9261481A5A4C2B00D66F17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9261471A5A4C2B00D66F17 /* Images.xcassets */; };
 		BE92614B1A5A4C2B00D66F17 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE9261491A5A4C2B00D66F17 /* LaunchScreen.xib */; };
 		BE9261571A5A4C2B00D66F17 /* iOS8SwiftMapKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9261561A5A4C2B00D66F17 /* iOS8SwiftMapKitTests.swift */; };
+		BE9261621A5A4CA400D66F17 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE9261601A5A4CA400D66F17 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 		BE9261501A5A4C2B00D66F17 /* iOS8SwiftMapKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS8SwiftMapKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9261551A5A4C2B00D66F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE9261561A5A4C2B00D66F17 /* iOS8SwiftMapKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS8SwiftMapKitTests.swift; sourceTree = "<group>"; };
+		BE9261601A5A4CA400D66F17 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BE9261611A5A4CA400D66F17 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,8 @@
 		BE9261321A5A4C2B00D66F17 = {
 			isa = PBXGroup;
 			children = (
+				BE9261601A5A4CA400D66F17 /* LICENSE */,
+				BE9261611A5A4CA400D66F17 /* README.md */,
 				BE92613D1A5A4C2B00D66F17 /* iOS8SwiftMapKit */,
 				BE9261531A5A4C2B00D66F17 /* iOS8SwiftMapKitTests */,
 				BE92613C1A5A4C2B00D66F17 /* Products */,
@@ -194,6 +199,7 @@
 			files = (
 				BE9261461A5A4C2B00D66F17 /* Main.storyboard in Resources */,
 				BE92614B1A5A4C2B00D66F17 /* LaunchScreen.xib in Resources */,
+				BE9261621A5A4CA400D66F17 /* LICENSE in Resources */,
 				BE9261481A5A4C2B00D66F17 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
