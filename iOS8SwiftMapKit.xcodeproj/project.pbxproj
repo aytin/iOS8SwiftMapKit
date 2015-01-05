@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE9261411A5A4C2B00D66F17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9261401A5A4C2B00D66F17 /* AppDelegate.swift */; };
+		BE9261431A5A4C2B00D66F17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9261421A5A4C2B00D66F17 /* ViewController.swift */; };
+		BE9261461A5A4C2B00D66F17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9261441A5A4C2B00D66F17 /* Main.storyboard */; };
+		BE9261481A5A4C2B00D66F17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9261471A5A4C2B00D66F17 /* Images.xcassets */; };
+		BE92614B1A5A4C2B00D66F17 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE9261491A5A4C2B00D66F17 /* LaunchScreen.xib */; };
+		BE9261571A5A4C2B00D66F17 /* iOS8SwiftMapKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9261561A5A4C2B00D66F17 /* iOS8SwiftMapKitTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE9261511A5A4C2B00D66F17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE9261331A5A4C2B00D66F17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE92613A1A5A4C2B00D66F17;
+			remoteInfo = iOS8SwiftMapKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE92613B1A5A4C2B00D66F17 /* iOS8SwiftMapKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS8SwiftMapKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE92613F1A5A4C2B00D66F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE9261401A5A4C2B00D66F17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE9261421A5A4C2B00D66F17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE9261451A5A4C2B00D66F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE9261471A5A4C2B00D66F17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE92614A1A5A4C2B00D66F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BE9261501A5A4C2B00D66F17 /* iOS8SwiftMapKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS8SwiftMapKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9261551A5A4C2B00D66F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE9261561A5A4C2B00D66F17 /* iOS8SwiftMapKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS8SwiftMapKitTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE9261381A5A4C2B00D66F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE92614D1A5A4C2B00D66F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE9261321A5A4C2B00D66F17 = {
+			isa = PBXGroup;
+			children = (
+				BE92613D1A5A4C2B00D66F17 /* iOS8SwiftMapKit */,
+				BE9261531A5A4C2B00D66F17 /* iOS8SwiftMapKitTests */,
+				BE92613C1A5A4C2B00D66F17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE92613C1A5A4C2B00D66F17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE92613B1A5A4C2B00D66F17 /* iOS8SwiftMapKit.app */,
+				BE9261501A5A4C2B00D66F17 /* iOS8SwiftMapKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE92613D1A5A4C2B00D66F17 /* iOS8SwiftMapKit */ = {
+			isa = PBXGroup;
+			children = (
+				BE9261401A5A4C2B00D66F17 /* AppDelegate.swift */,
+				BE9261421A5A4C2B00D66F17 /* ViewController.swift */,
+				BE9261441A5A4C2B00D66F17 /* Main.storyboard */,
+				BE9261471A5A4C2B00D66F17 /* Images.xcassets */,
+				BE9261491A5A4C2B00D66F17 /* LaunchScreen.xib */,
+				BE92613E1A5A4C2B00D66F17 /* Supporting Files */,
+			);
+			path = iOS8SwiftMapKit;
+			sourceTree = "<group>";
+		};
+		BE92613E1A5A4C2B00D66F17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE92613F1A5A4C2B00D66F17 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE9261531A5A4C2B00D66F17 /* iOS8SwiftMapKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE9261561A5A4C2B00D66F17 /* iOS8SwiftMapKitTests.swift */,
+				BE9261541A5A4C2B00D66F17 /* Supporting Files */,
+			);
+			path = iOS8SwiftMapKitTests;
+			sourceTree = "<group>";
+		};
+		BE9261541A5A4C2B00D66F17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE9261551A5A4C2B00D66F17 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE92613A1A5A4C2B00D66F17 /* iOS8SwiftMapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE92615A1A5A4C2B00D66F17 /* Build configuration list for PBXNativeTarget "iOS8SwiftMapKit" */;
+			buildPhases = (
+				BE9261371A5A4C2B00D66F17 /* Sources */,
+				BE9261381A5A4C2B00D66F17 /* Frameworks */,
+				BE9261391A5A4C2B00D66F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS8SwiftMapKit;
+			productName = iOS8SwiftMapKit;
+			productReference = BE92613B1A5A4C2B00D66F17 /* iOS8SwiftMapKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE92614F1A5A4C2B00D66F17 /* iOS8SwiftMapKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE92615D1A5A4C2B00D66F17 /* Build configuration list for PBXNativeTarget "iOS8SwiftMapKitTests" */;
+			buildPhases = (
+				BE92614C1A5A4C2B00D66F17 /* Sources */,
+				BE92614D1A5A4C2B00D66F17 /* Frameworks */,
+				BE92614E1A5A4C2B00D66F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE9261521A5A4C2B00D66F17 /* PBXTargetDependency */,
+			);
+			name = iOS8SwiftMapKitTests;
+			productName = iOS8SwiftMapKitTests;
+			productReference = BE9261501A5A4C2B00D66F17 /* iOS8SwiftMapKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE9261331A5A4C2B00D66F17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Kenneth Wilcox";
+				TargetAttributes = {
+					BE92613A1A5A4C2B00D66F17 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BE92614F1A5A4C2B00D66F17 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BE92613A1A5A4C2B00D66F17;
+					};
+				};
+			};
+			buildConfigurationList = BE9261361A5A4C2B00D66F17 /* Build configuration list for PBXProject "iOS8SwiftMapKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE9261321A5A4C2B00D66F17;
+			productRefGroup = BE92613C1A5A4C2B00D66F17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE92613A1A5A4C2B00D66F17 /* iOS8SwiftMapKit */,
+				BE92614F1A5A4C2B00D66F17 /* iOS8SwiftMapKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE9261391A5A4C2B00D66F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9261461A5A4C2B00D66F17 /* Main.storyboard in Resources */,
+				BE92614B1A5A4C2B00D66F17 /* LaunchScreen.xib in Resources */,
+				BE9261481A5A4C2B00D66F17 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE92614E1A5A4C2B00D66F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE9261371A5A4C2B00D66F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9261431A5A4C2B00D66F17 /* ViewController.swift in Sources */,
+				BE9261411A5A4C2B00D66F17 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE92614C1A5A4C2B00D66F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9261571A5A4C2B00D66F17 /* iOS8SwiftMapKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE9261521A5A4C2B00D66F17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE92613A1A5A4C2B00D66F17 /* iOS8SwiftMapKit */;
+			targetProxy = BE9261511A5A4C2B00D66F17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE9261441A5A4C2B00D66F17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE9261451A5A4C2B00D66F17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE9261491A5A4C2B00D66F17 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE92614A1A5A4C2B00D66F17 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE9261581A5A4C2B00D66F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE9261591A5A4C2B00D66F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE92615B1A5A4C2B00D66F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOS8SwiftMapKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE92615C1A5A4C2B00D66F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOS8SwiftMapKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE92615E1A5A4C2B00D66F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iOS8SwiftMapKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS8SwiftMapKit.app/iOS8SwiftMapKit";
+			};
+			name = Debug;
+		};
+		BE92615F1A5A4C2B00D66F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iOS8SwiftMapKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS8SwiftMapKit.app/iOS8SwiftMapKit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE9261361A5A4C2B00D66F17 /* Build configuration list for PBXProject "iOS8SwiftMapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9261581A5A4C2B00D66F17 /* Debug */,
+				BE9261591A5A4C2B00D66F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE92615A1A5A4C2B00D66F17 /* Build configuration list for PBXNativeTarget "iOS8SwiftMapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE92615B1A5A4C2B00D66F17 /* Debug */,
+				BE92615C1A5A4C2B00D66F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE92615D1A5A4C2B00D66F17 /* Build configuration list for PBXNativeTarget "iOS8SwiftMapKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE92615E1A5A4C2B00D66F17 /* Debug */,
+				BE92615F1A5A4C2B00D66F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE9261331A5A4C2B00D66F17 /* Project object */;
+}
