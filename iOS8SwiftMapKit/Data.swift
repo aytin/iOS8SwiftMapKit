@@ -11,7 +11,6 @@ import Foundation
 let Data = [
   [
     "PrecinctNo": "01-09",
-    "DisplayAddress": "ANDERSON HALL 305 BATES AVE PARMA, ID 83660",
     "Address": "305 BATES AVE PARMA, ID 83660",
     "PollingPlaceName": "ANDERSON HALL",
     "LocationName": "305 BATES AVE",
@@ -22,7 +21,6 @@ let Data = [
   ],
   [
     "PrecinctNo": "02-09",
-    "DisplayAddress": "NOTUS COMMUNITY CENTER 389 1ST ST NOTUS, ID 83656",
     "Address": "389 1ST ST NOTUS, ID 83656",
     "PollingPlaceName": "NOTUS COMMUNITY CENTER",
     "LocationName": "389 1ST ST",
@@ -32,7 +30,6 @@ let Data = [
     "Longitude": "-116.800402"
   ],
   [
-    "DisplayAddress": "PURPLE SAGE GOLF COURSE 15192 PURPLE SAGE RD CLUBHOUSE -NORTH OF CALDWELL CALDWELL, ID 83607",
     "Address": "15192 PURPLE SAGE RD CALDWELL, ID 83607",
     "PollingPlaceName": "PURPLE SAGE GOLF COURSE",
     "LocationName": "15192 PURPLE SAGE RD",
@@ -43,7 +40,6 @@ let Data = [
     "Longitude": "-116.696920",
   ],
   [
-    "DisplayAddress": "CALDWELL PUBLIC LIBRARY 1010 DEARBORN ST CALDWELL, ID 83605",
     "Address": "1010 DEARBORN ST CALDWELL, ID 83605",
     "PollingPlaceName": "CALDWELL PUBLIC LIBRARY",
     "LocationName": "1010 DEARBORN ST",
@@ -54,7 +50,6 @@ let Data = [
     "Longitude": "-116.687864"
   ],
   [
-    "DisplayAddress": "CANYON HILL NAZARENE CHURCH 903 N MICHIGAN AVE CALDWELL, ID 83605",
     "Address": "903 N MICHIGAN AVE CALDWELL, ID 83605",
     "PollingPlaceName": "CANYON HILL NAZARENE CHURCH",
     "LocationName": "903 N MICHIGAN AVE",
@@ -65,7 +60,6 @@ let Data = [
     "Longitude": "-116.674971"
   ],
   [
-    "DisplayAddress": "FIRST BAPTIST CHURCH 221 E LINDEN ST CALDWELL, ID 83605",
     "Address": "221 E LINDEN ST CALDWELL, ID 83605",
     "PollingPlaceName": "FIRST BAPTIST CHURCH",
     "LocationName": "221 E LINDEN ST",
@@ -76,7 +70,6 @@ let Data = [
     "Longitude": "-116.696385"
   ],
   [
-    "DisplayAddress": "UNITED METHODIST CHURCH 824 E LOGAN ST CALDWELL, ID 83605",
     "Address": "824 E LOGAN ST CALDWELL, ID 83605",
     "PollingPlaceName": "UNITED METHODIST CHURCH",
     "LocationName": "824 E LOGAN ST",
@@ -87,7 +80,6 @@ let Data = [
     "Longitude": "-116.688172"
   ],
   [
-    "DisplayAddress": "O'CONNOR FIELD HOUSE 2207 BLAINE ST CALDWELL EVENT CENTER CALDWELL, ID 83605",
     "Address": "2207 BLAINE ST CALDWELL, ID 83605",
     "PollingPlaceName": "O'CONNOR FIELD HOUSE",
     "LocationName": "2207 BLAINE ST",
@@ -98,7 +90,6 @@ let Data = [
     "Longitude": "-116.673244"
   ],
   [
-    "DisplayAddress": "VALLEY CHURCH 2900 LIFE WAY CALDWELL, ID 83605",
     "Address": "2900 LIFE WAY CALDWELL, ID 83605",
     "PollingPlaceName": "VALLEY CHURCH",
     "LocationName": "2900 LIFE WAY",
@@ -109,7 +100,6 @@ let Data = [
     "Longitude": "-116.662579"
   ],
   [
-    "DisplayAddress": "CALDWELL CHURCH OF CHRIST 4012 S 10TH AVE CORNER OF 10TH AND USTICK CALDWELL, ID 83605",
     "Address": "4012 S 10TH AVE CALDWELL, ID 83605",
     "PollingPlaceName": "CALDWELL CHURCH OF CHRIST",
     "LocationName": "4012 S 10TH AVE",
@@ -120,7 +110,6 @@ let Data = [
     "Longitude": "-116.693544"
   ],
   [
-    "DisplayAddress": "FAITH LUTHERAN CHURCH 2915 S MONTANA AVE CALDWELL, ID 83605",
     "Address": "2915 S MONTANA AVE CALDWELL, ID 83605",
     "PollingPlaceName": "FAITH LUTHERAN CHURCH",
     "LocationName": "2915 S MONTANA AVE",
@@ -131,7 +120,6 @@ let Data = [
     "Longitude": "-116.682882"
   ],
   [
-    "DisplayAddress": "SEVENTH-DAY ADVENTIST 2216 E LINDEN ST FRIENDSHIP HALL CALDWELL, ID 83605",
     "Address": "2216 E LINDEN ST CALDWELL, ID 83605",
     "PollingPlaceName": "SEVENTH-DAY ADVENTIST",
     "LocationName": "2216 E LINDEN ST",
@@ -142,7 +130,6 @@ let Data = [
     "Longitude": "-116.670906"
   ],
   [
-    "DisplayAddress": "SAGE VALLEY MIDDLE SCHOOL 18070 SANTA ANNA AVE NAMPA, ID 83687",
     "Address": "18070 SANTA ANNA AVE NAMPA, ID 83687",
     "PollingPlaceName": "SAGE VALLEY MIDDLE SCHOOL",
     "LocationName": "18070 SANTA ANNA AVE",
@@ -153,7 +140,6 @@ let Data = [
     "Longitude": "-116.602050"
   ],
   [
-    "DisplayAddress": "LEWIS & CLARK ELEMENTARY SCHOOL 1102 LASTER ST S.E. SIDE OF BUILDING CALDWELL, ID 83605",
     "Address": "1102 LASTER ST CALDWELL, ID 83605",
     "PollingPlaceName": "LEWIS & CLARK ELEMENTARY SCHOOL",
     "LocationName": "1102 LASTER ST",
@@ -164,7 +150,6 @@ let Data = [
     "Longitude": "-116.684849"
   ],
   [
-    "DisplayAddress": "CALDWELL CHRISTIAN CHURCH 3207 E USTICK RD CALDWELL, ID 83607",
     "Address": "3207 E USTICK RD CALDWELL, ID 83607",
     "PollingPlaceName": "CALDWELL CHRISTIAN CHURCH",
     "LocationName": "3207 E USTICK RD",
@@ -175,7 +160,6 @@ let Data = [
     "Longitude": "-116.659221"
   ],
   [
-    "DisplayAddress": "CALDWELL CHRISTIAN CHURCH 3207 E USTICK RD CALDWELL, ID 83607",
     "Address": "3207 E USTICK RD CALDWELL, ID 83607",
     "PollingPlaceName": "CALDWELL CHRISTIAN CHURCH",
     "LocationName": "3207 E USTICK RD",
@@ -186,7 +170,6 @@ let Data = [
     "Longitude": "-116.659221"
   ],
   [
-    "DisplayAddress": "MELBA SENIOR CENTER 115 BASELINE RD MELBA, ID 83641",
     "Address": "115 BASELINE RD MELBA, ID 83641",
     "PollingPlaceName": "MELBA SENIOR CENTER",
     "LocationName": "115 BASELINE RD",
@@ -197,7 +180,6 @@ let Data = [
     "Longitude": "-116.533285"
   ],
   [
-    "DisplayAddress": "LAKE SHORE DR BAPTIST CHURCH 8885 LAKE SHORE DR NAMPA, ID 83686",
     "Address": "8885 LAKE SHORE DR NAMPA, ID 83686",
     "PollingPlaceName": "LAKE SHORE DR BAPTIST CHURCH",
     "LocationName": "8885 LAKE SHORE DR",
@@ -208,7 +190,6 @@ let Data = [
     "Longitude": "-116.570549"
   ],
   [
-    "DisplayAddress": "SOUTHSIDE BLVD METHODIST CHURCH 5420 SOUTHSIDE BLVD NAMPA, ID 83686",
     "Address": "5420 SOUTHSIDE BLVD NAMPA, ID 83686",
     "PollingPlaceName": "SOUTHSIDE BLVD METHODIST CHURCH",
     "LocationName": "5420 SOUTHSIDE BLVD",
@@ -219,7 +200,6 @@ let Data = [
     "Longitude": "-116.532535"
   ],
   [
-    "DisplayAddress": "LAKE RIDGE ELEMENTARY SCHOOL 615 BURKE LANE NAMPA, ID 83686",
     "Address": "615 BURKE LANE NAMPA, ID 83686",
     "PollingPlaceName": "LAKE RIDGE ELEMENTARY SCHOOL",
     "LocationName": "615 BURKE LANE",
@@ -230,7 +210,6 @@ let Data = [
     "Longitude": "-116.583890"
   ],
   [
-    "DisplayAddress": "LAKEVUE ELEMENTARY SCHOOL 12843 CIRRUS DR NAMPA, ID 83651",
     "Address": "12843 CIRRUS DR NAMPA, ID 83651",
     "PollingPlaceName": "LAKEVUE ELEMENTARY SCHOOL",
     "LocationName": "12843 CIRRUS DR",
@@ -241,7 +220,6 @@ let Data = [
     "Longitude": "-116.649788"
   ],
   [
-    "DisplayAddress": "VALLIVUE MIDDLE SCHOOL 16412 S 10TH AVE CALDWELL, ID 83607",
     "Address": "16412 S 10TH AVE CALDWELL, ID 83607",
     "PollingPlaceName": "VALLIVUE MIDDLE SCHOOL",
     "LocationName": "16412 S 10TH AVE",
@@ -252,7 +230,6 @@ let Data = [
     "Longitude": "-116.690402"
   ],
   [
-    "DisplayAddress": "VALLIVUE LIONS CLUBHOUSE 15047 RIVERSIDE RD CORNER OF RIVERSIDE RD & HOADLEY RD CALDWELL, ID 83607",
     "Address": "15047 RIVERSIDE RD CALDWELL, ID 83607",
     "PollingPlaceName": "VALLIVUE LIONS CLUBHOUSE",
     "LocationName": "15047 RIVERSIDE RD",
@@ -263,7 +240,6 @@ let Data = [
     "Longitude": "-116.728875"
   ],
   [
-    "DisplayAddress": "DEERFLAT FREE METHODIST CHURCH 17703 BEET RD CALDWELL, ID 83607",
     "Address": "17703 BEET RD CALDWELL, ID 83607",
     "PollingPlaceName": "DEERFLAT FREE METHODIST CHURCH",
     "LocationName": "17703 BEET RD",
@@ -274,7 +250,6 @@ let Data = [
     "Longitude": "-116.793881"
   ],
   [
-    "DisplayAddress": "FIRST SOUTHERN BAPTIST CHURCH 912 W LINDEN ST CALDWELL, ID 83605",
     "Address": "912 W LINDEN ST CALDWELL, ID 83605",
     "PollingPlaceName": "FIRST SOUTHERN BAPTIST CHURCH",
     "LocationName": "912 W LINDEN ST",
@@ -285,7 +260,6 @@ let Data = [
     "Longitude": "-116.709677"
   ],
   [
-    "DisplayAddress": "GREENLEAF CITY HALL 20523 WHITTIER DR GREENLEAF, ID 83626",
     "Address": "20523 WHITTIER DR GREENLEAF, ID 83626",
     "PollingPlaceName": "GREENLEAF CITY HALL",
     "LocationName": "20523 WHITTIER DR",
@@ -296,7 +270,6 @@ let Data = [
     "Longitude": "-116.815588"
   ],
   [
-    "DisplayAddress": "CROSSROADS ASSEMBLY OF GOD CHURCH 20444 HWY 95 WILDER, ID 83676",
     "Address": "20444 HWY 95 WILDER, ID 83676",
     "PollingPlaceName": "CROSSROADS ASSEMBLY OF GOD CHURCH",
     "LocationName": "20444 HWY 95",
@@ -307,7 +280,6 @@ let Data = [
     "Longitude": "-116.911178"
   ],
   [
-    "DisplayAddress": "MTN VIEW NAZARENE CHURCH 26515 USTICK RD CORNER OF USTICK AND BATT RD WILDER, ID 83676",
     "Address": "26515 USTICK RD WILDER, ID 83676",
     "PollingPlaceName": "MTN VIEW NAZARENE CHURCH",
     "LocationName": "26515 USTICK RD",
@@ -318,7 +290,6 @@ let Data = [
     "Longitude": "-116.922826"
   ],
   [
-    "DisplayAddress": "ROSWELL BAPTIST CHURCH 28702 HWY. 18 PARMA, ID 83660",
     "Address": "28702 HWY. 18 PARMA, ID 83660",
     "PollingPlaceName": "ROSWELL BAPTIST CHURCH",
     "LocationName": "28702 HWY. 18",
@@ -329,7 +300,6 @@ let Data = [
     "Longitude": "-116.965690"
   ],
   [
-    "DisplayAddress": "OREGON TRAIL CHURCH OF GOD 23057 OLD HWY 30 CALDWELL, ID 83607",
     "Address": "23057 OLD HWY 30 CALDWELL, ID 83607",
     "PollingPlaceName": "OREGON TRAIL CHURCH OF GOD",
     "LocationName": "23057 OLD HWY 30",
@@ -340,7 +310,6 @@ let Data = [
     "Longitude": "-116.696282"
   ],
   [
-    "DisplayAddress": "MIDDLETON HEIGHTS ELEMENTARY SCHOOL 899 CEMETERY RD DETACHED GYM MIDDLETON, ID 83644",
     "Address": "899 CEMETERY RD MIDDLETON, ID 83644",
     "PollingPlaceName": "MIDDLETON HEIGHTS ELEMENTARY SCHOOL",
     "LocationName": "899 CEMETERY RD",
@@ -351,7 +320,6 @@ let Data = [
     "Longitude": "-116.634176"
   ],
   [
-    "DisplayAddress": "MIDDLETON MIDDLE SCHOOL 511 W MAIN ST DETACHED GYM MIDDLETON, ID 83644",
     "Address": "511 W MAIN ST MIDDLETON, ID 83644",
     "PollingPlaceName": "MIDDLETON MIDDLE SCHOOL",
     "LocationName": "511 W MAIN ST",
@@ -362,7 +330,6 @@ let Data = [
     "Longitude": "-116.629226"
   ],
   [
-    "DisplayAddress": "LDS CHURCH 22500 LANSING LANE MIDDLETON, ID 83644",
     "Address": "22500 LANSING LANE MIDDLETON, ID 83644",
     "PollingPlaceName": "LDS CHURCH",
     "LocationName": "22500 LANSING LANE",
@@ -373,7 +340,6 @@ let Data = [
     "Longitude": "-116.572299"
   ],
   [
-    "DisplayAddress": "EAST CANYON ELEMENTARY 18408 NORTHSIDE BLVD NAMPA, ID 83687",
     "Address": "18408 NORTHSIDE BLVD NAMPA, ID 83687",
     "PollingPlaceName": "EAST CANYON ELEMENTARY",
     "LocationName": "18408 NORTHSIDE BLVD",
@@ -384,7 +350,6 @@ let Data = [
     "Longitude": "-116.572897"
   ],
   [
-    "DisplayAddress": "COLLEGE OF WESTERN IDAHO 2407 CALDWELL BLVD NAMPA, ID 83651",
     "Address": "2407 CALDWELL BLVD NAMPA, ID 83651",
     "PollingPlaceName": "COLLEGE OF WESTERN IDAHO",
     "LocationName": "2407 CALDWELL BLVD",
@@ -395,7 +360,6 @@ let Data = [
     "Longitude": "-116.610773"
   ],
   [
-    "DisplayAddress": "KARCHER CHURCH OF THE NAZARENE 2515 W KARCHER RD NAMPA, ID 83651",
     "Address": "2515 W KARCHER RD NAMPA, ID 83651",
     "PollingPlaceName": "KARCHER CHURCH OF THE NAZARENE",
     "LocationName": "2515 W KARCHER RD",
@@ -406,7 +370,6 @@ let Data = [
     "Longitude": "-116.612057"
   ],
   [
-    "DisplayAddress": "STEVENS-HENAGER COLLEGE 16819 N MARKET PLACE BLVD NAMPA, ID 83687",
     "Address": "16819 N MARKET PLACE BLVD NAMPA, ID 83687",
     "PollingPlaceName": "STEVENS-HENAGER COLLEGE",
     "LocationName": "16819 N MARKET PLACE BLVD",
@@ -417,7 +380,6 @@ let Data = [
     "Longitude": "-116.595062"
   ],
   [
-    "DisplayAddress": "BIRCH ELEMENTARY SCHOOL 6900 BIRCH LANE NAMPA, ID 83687",
     "Address": "6900 BIRCH LANE NAMPA, ID 83687",
     "PollingPlaceName": "BIRCH ELEMENTARY SCHOOL",
     "LocationName": "6900 BIRCH LANE",
@@ -428,7 +390,6 @@ let Data = [
     "Longitude": "-116.531510"
   ],
   [
-    "DisplayAddress": "EDMARK SUPERSTORE 15700 IDAHO CENTER BLVD SHOWROOM NAMPA, ID 83687",
     "Address": "15700 IDAHO CENTER BLVD NAMPA, ID 83687",
     "PollingPlaceName": "EDMARK SUPERSTORE",
     "LocationName": "15700 IDAHO CENTER BLVD",
@@ -439,7 +400,6 @@ let Data = [
     "Longitude": "-116.511758"
   ],
   [
-    "DisplayAddress": "CHURCH OF THE BRETHREN 11030 ORCHARD AVE FELLOWSHIP ROOM NAMPA, ID 83651",
     "Address": "11030 ORCHARD AVE NAMPA, ID 83651",
     "PollingPlaceName": "CHURCH OF THE BRETHREN",
     "LocationName": "11030 ORCHARD AVE",
@@ -450,7 +410,6 @@ let Data = [
     "Longitude": "-116.613772"
   ],
   [
-    "DisplayAddress": "KARCHER CHURCH OF THE NAZARENE 2515 W KARCHER RD FAMILY LIFE CENTER NAMPA, ID 83651",
     "Address": "2515 W KARCHER RD NAMPA, ID 83651",
     "PollingPlaceName": "KARCHER CHURCH OF THE NAZARENE",
     "LocationName": "2515 W KARCHER RD",
@@ -461,7 +420,6 @@ let Data = [
     "Longitude": "-116.612057"
   ],
   [
-    "DisplayAddress": "NAMPA CIVIC CENTER 311 3RD ST S WEST SIDE ENTRANCE NAMPA, ID 83651",
     "Address": "311 3RD ST S NAMPA, ID 83651",
     "PollingPlaceName": "NAMPA CIVIC CENTER",
     "LocationName": "311 3RD ST S",
@@ -472,7 +430,6 @@ let Data = [
     "Longitude": "-116.571627"
   ],
   [
-    "DisplayAddress": "SNAKE RIVER ELEMENTARY SCHOOL 500 STAMPEDE DR NAMPA, ID 83687",
     "Address": "500 STAMPEDE DR NAMPA, ID 83687",
     "PollingPlaceName": "SNAKE RIVER ELEMENTARY SCHOOL",
     "LocationName": "500 STAMPEDE DR",
@@ -483,7 +440,6 @@ let Data = [
     "Longitude": "-116.546392"
   ],
   [
-    "DisplayAddress": "EDMARK SUPERSTORE 15700 IDAHO CENTER BLVD SHOWROOM NAMPA, ID 83687",
     "Address": "15700 IDAHO CENTER BLVD NAMPA, ID 83687",
     "PollingPlaceName": "EDMARK SUPERSTORE",
     "LocationName": "15700 IDAHO CENTER BLVD",
@@ -494,7 +450,6 @@ let Data = [
     "Longitude": "-116.511758"
   ],
   [
-    "DisplayAddress": "CHURCH OF THE BRETHREN 11030 ORCHARD AVE NAMPA, ID 83651",
     "Address": "11030 ORCHARD AVE NAMPA, ID 83651",
     "PollingPlaceName": "CHURCH OF THE BRETHREN",
     "LocationName": "11030 ORCHARD AVE",
@@ -505,7 +460,6 @@ let Data = [
     "Longitude": "-116.613672"
   ],
   [
-    "DisplayAddress": "CHRISTIAN FAITH CENTER 31 S MIDLAND BLVD NAMPA, ID 83651",
     "Address": "31 S MIDLAND BLVD NAMPA, ID 83651",
     "PollingPlaceName": "CHRISTIAN FAITH CENTER",
     "LocationName": "31 S MIDLAND BLVD",
@@ -516,7 +470,6 @@ let Data = [
     "Longitude": "-116.593740"
   ],
   [
-    "DisplayAddress": "NAMPA CIVIC CENTER 311 3RD ST S WEST SIDE ENTRANCE NAMPA, ID 83651",
     "Address": "311 3RD ST S NAMPA, ID 83651",
     "PollingPlaceName": "NAMPA CIVIC CENTER",
     "LocationName": "311 3RD ST S",
@@ -527,7 +480,6 @@ let Data = [
     "Longitude": "-116.571627"
   ],
   [
-    "DisplayAddress": "ENDEAVOR ELEMENTARY SCHOOL 2824 E VICTORY RD NAMPA, ID 83687",
     "Address": "2824 E VICTORY RD NAMPA, ID 83687",
     "PollingPlaceName": "ENDEAVOR ELEMENTARY SCHOOL",
     "LocationName": "2824 E VICTORY RD",
@@ -538,7 +490,6 @@ let Data = [
     "Longitude": "-116.535189"
   ],
   [
-    "DisplayAddress": "PARK RIDGE ELEMENTARY SCHOOL 3313 E PARK RIDGE DR NAMPA, ID 83687",
     "Address": "3313 E PARK RIDGE DR NAMPA, ID 83687",
     "PollingPlaceName": "PARK RIDGE ELEMENTARY SCHOOL",
     "LocationName": "3313 E PARK RIDGE DR",
@@ -549,7 +500,6 @@ let Data = [
     "Longitude": "-116.529916"
   ],
   [
-    "DisplayAddress": "CHRISTIAN FAITH CENTER 31 S MIDLAND BLVD NAMPA, ID 83651",
     "Address": "31 S MIDLAND BLVD NAMPA, ID 83651",
     "PollingPlaceName": "CHRISTIAN FAITH CENTER",
     "LocationName": "31 S MIDLAND BLVD",
@@ -560,7 +510,6 @@ let Data = [
     "Longitude": "-116.593740"
   ],
   [
-    "DisplayAddress": "FIRST UNITED PRESBYTERIAN CHURCH 400 LAKE LOWELL AVE NAMPA, ID 83686",
     "Address": "400 LAKE LOWELL AVE NAMPA, ID 83686",
     "PollingPlaceName": "FIRST UNITED PRESBYTERIAN CHURCH",
     "LocationName": "400 LAKE LOWELL AVE",
@@ -571,7 +520,6 @@ let Data = [
     "Longitude": "-116.578813"
   ],
   [
-    "DisplayAddress": "NAMPA FIRST CHURCH OF THE NAZARENE 601 16TH AVE S NAMPA, ID 83651",
     "Address": "601 16TH AVE S NAMPA, ID 83651",
     "PollingPlaceName": "NAMPA FIRST CHURCH OF THE NAZARENE",
     "LocationName": "601 16TH AVE S",
@@ -582,7 +530,6 @@ let Data = [
     "Longitude": "-116.561686"
   ],
   [
-    "DisplayAddress": "OWYHEE ELEMENTARY SCHOOL 2300 W IOWA AVENUE NAMPA, ID 83686",
     "Address": "2300 W IOWA AVENUE NAMPA, ID 83686",
     "PollingPlaceName": "OWYHEE ELEMENTARY SCHOOL",
     "LocationName": "2300 W IOWA AVENUE",
@@ -593,7 +540,6 @@ let Data = [
     "Longitude": "-116.608801"
   ],
   [
-    "DisplayAddress": "IOWA ELEMENTARY SCHOOL 626 W IOWA AVE NAMPA, ID 83686",
     "Address": "626 W IOWA AVE NAMPA, ID 83686",
     "PollingPlaceName": "IOWA ELEMENTARY SCHOOL",
     "LocationName": "626 W IOWA AVE",
@@ -604,7 +550,6 @@ let Data = [
     "Longitude": "-116.584020"
   ],
   [
-    "DisplayAddress": "COLLEGE CHURCH OF THE NAZARENE 504 E. DEWEY AVE. WEST SIDE ENTRANCE NAMPA, ID 83686",
     "Address": "504 E. DEWEY AVE. NAMPA, ID 83686",
     "PollingPlaceName": "COLLEGE CHURCH OF THE NAZARENE",
     "LocationName": "504 E. DEWEY AVE.",
@@ -615,7 +560,6 @@ let Data = [
     "Longitude": "-116.567501"
   ],
   [
-    "DisplayAddress": "NAMPA FIRST CHURCH OF THE NAZARENE 601 16TH AVE S FERDINAND HALL BACK SIDE OF THE CHURCH NAMPA, ID 83651",
     "Address": "601 16TH AVE S NAMPA, ID 83651",
     "PollingPlaceName": "NAMPA FIRST CHURCH OF THE NAZARENE",
     "LocationName": "601 16TH AVE S",
@@ -626,7 +570,6 @@ let Data = [
     "Longitude": "-116.561445"
   ],
   [
-    "DisplayAddress": "NEW HOPE BAPTIST CHURCH 1829 W IOWA AVE NAMPA, ID 83686",
     "Address": "1829 W IOWA AVE NAMPA, ID 83686",
     "PollingPlaceName": "NEW HOPE BAPTIST CHURCH",
     "LocationName": "1829 W IOWA AVE",
@@ -637,7 +580,6 @@ let Data = [
     "Longitude": "-116.603795"
   ],
   [
-    "DisplayAddress": "BETHEL CHURCH OF THE NAZARENE 3001 12TH AVE RD NAMPA, ID 83686",
     "Address": "3001 12TH AVE RD NAMPA, ID 83686",
     "PollingPlaceName": "BETHEL CHURCH OF THE NAZARENE",
     "LocationName": "3001 12TH AVE RD",
@@ -648,7 +590,6 @@ let Data = [
     "Longitude": "-116.573647"
   ],
   [
-    "DisplayAddress": "FIRST UNITED METHODIST CHURCH 2717 12TH AVE RD NAMPA, ID 83686",
     "Address": "2717 12TH AVE RD NAMPA, ID 83686",
     "PollingPlaceName": "FIRST UNITED METHODIST CHURCH",
     "LocationName": "2717 12TH AVE RD",
@@ -659,7 +600,6 @@ let Data = [
     "Longitude": "-116.574011"
   ],
   [
-    "DisplayAddress": "GREENHURST ELEMENTARY SCHOOL 1701 DISCOVERY PL NAMPA, ID 83686",
     "Address": "1701 DISCOVERY PL NAMPA, ID 83686",
     "PollingPlaceName": "GREENHURST ELEMENTARY SCHOOL",
     "LocationName": "1701 DISCOVERY PL",
@@ -670,7 +610,6 @@ let Data = [
     "Longitude": "-116.539156"
   ],
   [
-    "DisplayAddress": "RONALD REAGAN ELEMENTARY SCH 3400 SOUTHSIDE BLVD NAMPA, ID 83686",
     "Address": "3400 SOUTHSIDE BLVD NAMPA, ID 83686",
     "PollingPlaceName": "RONALD REAGAN ELEMENTARY SCH",
     "LocationName": "3400 SOUTHSIDE BLVD",
@@ -681,7 +620,6 @@ let Data = [
     "Longitude": "-116.531783"
   ],
   [
-    "DisplayAddress": "CHRISTIAN FAITH CENTER 31 S MIDLAND BLVD NAMPA, ID 83651",
     "Address": "31 S MIDLAND BLVD NAMPA, ID 83651",
     "PollingPlaceName": "CHRISTIAN FAITH CENTER",
     "LocationName": "31 S MIDLAND BLVD",
@@ -692,7 +630,6 @@ let Data = [
     "Longitude": "-116.593740"
   ],
   [
-    "DisplayAddress": "OREGON TRAIL CHURCH OF GOD 23057 OLD HWY 30 CALDWELL, ID 83607",
     "Address": "23057 OLD HWY 30 CALDWELL, ID 83607",
     "PollingPlaceName": "OREGON TRAIL CHURCH OF GOD",
     "LocationName": "23057 OLD HWY 30",
@@ -703,7 +640,6 @@ let Data = [
     "Longitude": "-116.696267"
   ],
   [
-    "DisplayAddress": "NOTUS COMMUNITY CENTER 389 1ST ST NOTUS, ID 83656",
     "Address": "389 1ST ST NOTUS, ID 83656",
     "PollingPlaceName": "NOTUS COMMUNITY CENTER",
     "LocationName": "389 1ST ST",
