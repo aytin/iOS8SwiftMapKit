@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     let span = MKCoordinateSpanMake(0.85, 0.85)
     let region = MKCoordinateRegion(center: location, span: span)
     self.mapView.setRegion(region, animated: true)
-    self.mapView.mapType = MKMapTypeStandard//MKMapTypeHybrid
+    self.mapView.mapType = .Standard
     
     for data in Data {
       // I wonder if data.keys and data.values dump the dictionary in the same order?
