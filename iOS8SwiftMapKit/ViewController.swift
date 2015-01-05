@@ -28,13 +28,10 @@ class ViewController: UIViewController {
     //    annotation.subtitle = "London"
     //    mapView.addAnnotation(annotation)
     
-    for item in Data {
-      let dictionary: AnyObject? = item.1
-      if let dict = dictionary as? Dictionary<String, AnyObject> {
-        if let address = dict["DisplayAddress"] as? NSString {
-          //let address: AnyObject? = dict["DisplayAddress"] as String
-          println("Precinct: \(item.0) - Address: \(address)")
-        }
+    for data in Data {
+      for item in data.keys {
+        data.values
+        println("\(item): ")
       }
     }
   }
