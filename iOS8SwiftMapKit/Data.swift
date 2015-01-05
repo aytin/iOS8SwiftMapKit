@@ -10,7 +10,7 @@ import Foundation
 
 let Data = [
   [
-    "Precinct": "01-09",
+    "PrecinctNo": "01-09",
     "DisplayAddress": "ANDERSON HALL 305 BATES AVE PARMA, ID 83660",
     "Address": "305 BATES AVE PARMA, ID 83660",
     "PollingPlaceName": "ANDERSON HALL",
@@ -21,7 +21,7 @@ let Data = [
     "Longitude": "-116.943101"
   ],
   [
-    "Precinct": "02-09",
+    "PrecinctNo": "02-09",
     "DisplayAddress": "NOTUS COMMUNITY CENTER 389 1ST ST NOTUS, ID 83656",
     "Address": "389 1ST ST NOTUS, ID 83656",
     "PollingPlaceName": "NOTUS COMMUNITY CENTER",
@@ -30,5 +30,16 @@ let Data = [
     "CityStateZip": "NOTUS, ID 83656",
     "Latitude": "43.725804",
     "Longitude": "-116.800402"
+  ],
+  [
+    "DisplayAddress": "PURPLE SAGE GOLF COURSE 15192 PURPLE SAGE RD CLUBHOUSE -NORTH OF CALDWELL CALDWELL, ID 83607",
+    "Address": "15192 PURPLE SAGE RD CALDWELL, ID 83607",
+    "PollingPlaceName": "PURPLE SAGE GOLF COURSE",
+    "LocationName": "15192 PURPLE SAGE RD",
+    "LocationDesc": "CLUBHOUSE -NORTH OF CALDWELL",
+    "CityStateZip": "CALDWELL, ID 83607",
+    "PrecinctNo": "03-09",
+    "Latitude": "43.735839",
+    "Longitude": "-116.696920",
   ]
 ]
