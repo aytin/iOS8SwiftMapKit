@@ -16,6 +16,7 @@
 		BE9261621A5A4CA400D66F17 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE9261601A5A4CA400D66F17 /* LICENSE */; };
 		BEA5A4721A5BA63A004D0655 /* Precinct.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA5A4711A5BA63A004D0655 /* Precinct.swift */; };
 		BEA5A4741A5BA77D004D0655 /* Precincts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA5A4731A5BA77D004D0655 /* Precincts.swift */; };
+		BEA5A4761A5BB2AF004D0655 /* vote-hereSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA5A4751A5BB2AF004D0655 /* vote-hereSmall.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		BE9261611A5A4CA400D66F17 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BEA5A4711A5BA63A004D0655 /* Precinct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Precinct.swift; sourceTree = "<group>"; };
 		BEA5A4731A5BA77D004D0655 /* Precincts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Precincts.swift; sourceTree = "<group>"; };
+		BEA5A4751A5BB2AF004D0655 /* vote-hereSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vote-hereSmall.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		BE92613D1A5A4C2B00D66F17 /* iOS8SwiftMapKit */ = {
 			isa = PBXGroup;
 			children = (
+				BEA5A4751A5BB2AF004D0655 /* vote-hereSmall.png */,
 				BEA5A4711A5BA63A004D0655 /* Precinct.swift */,
 				BEA5A4731A5BA77D004D0655 /* Precincts.swift */,
 				BE9261401A5A4C2B00D66F17 /* AppDelegate.swift */,
@@ -205,6 +208,7 @@
 			files = (
 				BE9261461A5A4C2B00D66F17 /* Main.storyboard in Resources */,
 				BE92614B1A5A4C2B00D66F17 /* LaunchScreen.xib in Resources */,
+				BEA5A4761A5BB2AF004D0655 /* vote-hereSmall.png in Resources */,
 				BE9261621A5A4CA400D66F17 /* LICENSE in Resources */,
 				BE9261481A5A4C2B00D66F17 /* Images.xcassets in Resources */,
 			);

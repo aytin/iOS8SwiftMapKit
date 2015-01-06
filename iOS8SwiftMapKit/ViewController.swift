@@ -42,26 +42,28 @@ class ViewController: UIViewController, MKMapViewDelegate {
   }
   
   func mapView(mapView: MKMapView!, viewForAnnotation annotation: MKAnnotation!) -> MKAnnotationView! {
-      
-      if annotation is MKUserLocation {
-        //return nil so map view draws "blue dot" for standard user location
-        return nil
-      }
-      
-      let reuseId = "pin"
-      
-      var pinView = mapView.dequeueReusableAnnotationViewWithIdentifier(reuseId) as? MKPinAnnotationView
-      if pinView == nil {
-        pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: reuseId)
-        pinView!.canShowCallout = true
-        pinView!.animatesDrop = true
-        pinView!.pinColor = .Purple
-      }
-      else {
-        pinView!.annotation = annotation
-      }
-      
-      return pinView
+    
+    if annotation is MKUserLocation {
+      //return nil so map view draws "blue dot" for standard user location
+      return nil
+    }
+    
+    let reuseId = "pin"
+    
+    var pinView = mapView.dequeueReusableAnnotationViewWithIdentifier(reuseId) as? MKPinAnnotationView
+    if pinView == nil {
+      pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: reuseId)
+      pinView!.canShowCallout = true
+      //pinView!.animatesDrop = true
+      //pinView!.pinColor = .Purple
+      pinView!.image = UIImage(named: "vote-hereSmall.png")
+      pinView!.calloutOffset = CGPoint(x: 0.0, y: 32.0)
+    }
+    else {
+      pinView!.annotation = annotation
+    }
+    
+    return pinView
   }
   
   /*
