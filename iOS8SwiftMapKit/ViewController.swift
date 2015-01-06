@@ -23,42 +23,15 @@ class ViewController: UIViewController {
     self.mapView.setRegion(region, animated: true)
     self.mapView.mapType = .Standard
     
-    for data in Data {
-      // I wonder if data.keys and data.values dump the dictionary in the same order?
-      // Woot - they ARE!
-      let keys = [String](data.keys)
-      let values = [String](data.values)
+    for precinct in Precincts.allPrecincts {
+      let precinctLocation = CLLocationCoordinate2D(latitude: precinct.latitude, longitude: precinct.longitude)
+      let annotation = MKPointAnnotation()
+      annotation.setCoordinate(precinctLocation)
+      annotation.title = "\(precinct.precinctNo) - \(precinct.name)"
+      annotation.subtitle = precinct.address
       
-      var precinct = ""
-      if let index = find(keys, "PrecinctNo") {
-        precinct = values[index]
-      }
-      
-      var lat:Double = 0.0
-      if let index = find(keys, "Latitude") {
-        lat = (values[index] as NSString).doubleValue
-      }
-      
-      var lon:Double = 0.0
-      if let index = find(keys, "Longitude") {
-        lon = (values[index] as NSString).doubleValue
-      }
-      
-      var name = ""
-      if let index = find(keys, "PollingPlaceName") {
-        name = "\(values[index])"
-      }
-      
-      var address = ""
-      if let index = find(keys, "Address") {
-        address = values[index]
-      }
-      
-      println("Precinct(precinctNo:\"\(precinct)\", address:\"\(address)\", name:\"\(name)\", latitude:\(lat), longitude:\(lon)),")
-      println()
+      self.mapView.addAnnotation(annotation)
     }
-    
-
   }
   
   override func didReceiveMemoryWarning() {
