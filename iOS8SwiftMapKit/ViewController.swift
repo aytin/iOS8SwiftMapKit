@@ -44,8 +44,9 @@ class ViewController: UIViewController {
         lon = (values[index] as NSString).doubleValue
       }
       
+      var name = ""
       if let index = find(keys, "PollingPlaceName") {
-        precinct = "\(precinct) - \(values[index])"
+        name = "\(values[index])"
       }
       
       var address = ""
@@ -53,15 +54,11 @@ class ViewController: UIViewController {
         address = values[index]
       }
       
-      let precinctLocation = CLLocationCoordinate2D(latitude: lat, longitude: lon)
-      
-      let annotation = MKPointAnnotation()
-      annotation.setCoordinate(precinctLocation)
-      annotation.title = precinct
-      annotation.subtitle = address
-      
-      self.mapView.addAnnotation(annotation)
+      println("Precinct(precinctNo:\"\(precinct)\", address:\"\(address)\", name:\"\(name)\", latitude:\(lat), longitude:\(lon)),")
+      println()
     }
+    
+
   }
   
   override func didReceiveMemoryWarning() {
