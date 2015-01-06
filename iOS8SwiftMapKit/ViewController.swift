@@ -29,8 +29,8 @@ class ViewController: UIViewController, MKMapViewDelegate {
       let precinctLocation = CLLocationCoordinate2D(latitude: precinct.latitude, longitude: precinct.longitude)
       let annotation = MKPointAnnotation()
       annotation.setCoordinate(precinctLocation)
-      annotation.title = "\(precinct.precinctNo) - \(precinct.name)"
-      annotation.subtitle = precinct.address
+      annotation.title = "\(precinct.precinctNo): \(precinct.name)".capitalizedString
+      annotation.subtitle = precinct.address.capitalizedString
       
       self.mapView.addAnnotation(annotation)
     }
@@ -54,10 +54,10 @@ class ViewController: UIViewController, MKMapViewDelegate {
     if pinView == nil {
       pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: reuseId)
       pinView!.canShowCallout = true
-      //pinView!.animatesDrop = true
-      //pinView!.pinColor = .Purple
-      pinView!.image = UIImage(named: "vote-hereSmall.png")
-      pinView!.calloutOffset = CGPoint(x: 0.0, y: 32.0)
+      pinView!.animatesDrop = true
+      pinView!.pinColor = .Purple
+      //pinView!.image = UIImage(named: "vote-hereSmall.png")
+      //pinView!.calloutOffset = CGPoint(x: 0.0, y: 32.0)
     }
     else {
       pinView!.annotation = annotation
