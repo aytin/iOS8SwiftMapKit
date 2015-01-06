@@ -23,7 +23,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
     let span = MKCoordinateSpanMake(0.85, 0.85)
     let region = MKCoordinateRegion(center: location, span: span)
     self.mapView.setRegion(region, animated: true)
-    self.mapView.mapType = .Standard
+    self.mapView.mapType = .Hybrid
     
     for precinct in Precincts.allPrecincts {
       let precinctLocation = CLLocationCoordinate2D(latitude: precinct.latitude, longitude: precinct.longitude)
