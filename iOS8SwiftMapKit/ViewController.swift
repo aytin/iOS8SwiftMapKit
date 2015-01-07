@@ -25,12 +25,12 @@ class ViewController: UIViewController, MKMapViewDelegate {
     self.mapView.setRegion(region, animated: true)
     self.mapView.mapType = .Standard
     
-    for precinct in Precincts.allPrecincts {
-      let precinctLocation = CLLocationCoordinate2D(latitude: precinct.latitude, longitude: precinct.longitude)
+    for pollingLocation in PollingLocations.allPollingLocations {
+      let precinctLocation = CLLocationCoordinate2D(latitude: pollingLocation.latitude, longitude: pollingLocation.longitude)
       let annotation = MKPointAnnotation()
       annotation.setCoordinate(precinctLocation)
-      annotation.title = "\(precinct.precinctNo): \(precinct.name)".capitalizedString
-      annotation.subtitle = precinct.address.capitalizedString
+      annotation.title = "\(pollingLocation.precinctNo): \(pollingLocation.name)".capitalizedString
+      annotation.subtitle = pollingLocation.address.capitalizedString
       
       self.mapView.addAnnotation(annotation)
     }

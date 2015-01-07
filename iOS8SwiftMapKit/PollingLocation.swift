@@ -1,5 +1,5 @@
 //
-//  Precinct.swift
+//  PollingLocation.swift
 //  iOS8SwiftMapKit
 //
 //  Created by Kenneth Wilcox on 1/5/15.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Precinct {
+struct PollingLocation {
   var precinctNo: String!
   var address: String!
   var name: String!
