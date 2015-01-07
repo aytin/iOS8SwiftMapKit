@@ -34,6 +34,13 @@ class ViewController: UIViewController, MKMapViewDelegate {
       
       self.mapView.addAnnotation(annotation)
     }
+    
+    var coordinates = [CLLocationCoordinate2DMake(43.786266, -116.943101),
+      CLLocationCoordinate2DMake(43.725804, -116.800402),
+      CLLocationCoordinate2DMake(43.735839, -116.696920)]
+    let overlay = MKPolygon(coordinates: &coordinates, count: coordinates.count)
+    
+    self.mapView.addOverlay(overlay)
   }
   
   override func didReceiveMemoryWarning() {
@@ -66,27 +73,21 @@ class ViewController: UIViewController, MKMapViewDelegate {
     return pinView
   }
   
-  /*
-  MKAnnotationView *pinView = (MKAnnotationView*)[mapView dequeueReusableAnnotationViewWithIdentifier:@"CustomPinAnnotationView"];
-  if (!pinView)
-  {
-  // If an existing pin view was not available, create one.
-  pinView = [[MKAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"CustomPinAnnotationView"];
-  pinView.canShowCallout = YES;
-  pinView.image = [UIImage imageNamed:@"pizza_slice_32.png"];
-  pinView.calloutOffset = CGPointMake(0, 32);
-  
-  // Add a detail disclosure button to the callout.
-  UIButton* rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
-  pinView.rightCalloutAccessoryView = rightButton;
-  
-  // Add an image to the left callout.
-  UIImageView *iconView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"pizza_slice_32.png"]];
-  pinView.leftCalloutAccessoryView = iconView;
-  } else {
-  pinView.annotation = annotation;
+  func mapView(mapView: MKMapView!, rendererForOverlay overlay: MKOverlay!) -> MKOverlayRenderer! {
+    if overlay is MKPolygon {
+      var view = MKPolygonRenderer(overlay: overlay)
+      view!.fillColor = UIColor.cyanColor().colorWithAlphaComponent(0.2)
+      view!.strokeColor = UIColor.blueColor().colorWithAlphaComponent(0.7)
+      view!.lineWidth = 3.0
+      return view
+    }
+    return nil
   }
-  return pinView;
-*/
+  
+  func mapView(mapView: MKMapView!, viewForOverlay overlay: MKOverlay!) -> MKOverlayView! {
+    var pV  = MKPolygonView(overlay: overlay)
+    
+    return pV
+  }
 }
 
