@@ -13,6 +13,10 @@ class ViewController: UIViewController, MKMapViewDelegate {
   
   @IBOutlet weak var mapView: MKMapView!
   
+  @IBAction func buttonPressed(sender: AnyObject) {
+    // keep this around for debugging
+  }
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
@@ -20,20 +24,20 @@ class ViewController: UIViewController, MKMapViewDelegate {
     self.mapView.delegate = self
     
     let location = CLLocationCoordinate2D (latitude: 43.583962700238274, longitude: -116.67824378418591)
-    let span = MKCoordinateSpan(latitudeDelta: 5, longitudeDelta: 5) // 0.85 previously
+    let span = MKCoordinateSpan(latitudeDelta: 1.5, longitudeDelta: 1.5) // 0.85 previously
     let region = MKCoordinateRegion(center: location, span: span)
     self.mapView.setRegion(region, animated: true)
     self.mapView.mapType = .Standard
     
-//    for pollingLocation in PollingLocations.allPollingLocations {
-//      let precinctLocation = CLLocationCoordinate2D(latitude: pollingLocation.latitude, longitude: pollingLocation.longitude)
-//      let annotation = MKPointAnnotation()
-//      annotation.setCoordinate(precinctLocation)
-//      annotation.title = "\(pollingLocation.precinctNo): \(pollingLocation.name)".capitalizedString
-//      annotation.subtitle = pollingLocation.address.capitalizedString
-//      
-//      self.mapView.addAnnotation(annotation)
-//    }
+    for pollingLocation in PollingLocations.allPollingLocations {
+      let precinctLocation = CLLocationCoordinate2D(latitude: pollingLocation.latitude, longitude: pollingLocation.longitude)
+      let annotation = MKPointAnnotation()
+      annotation.setCoordinate(precinctLocation)
+      annotation.title = "\(pollingLocation.precinctNo): \(pollingLocation.name)".capitalizedString
+      annotation.subtitle = pollingLocation.address.capitalizedString
+      
+      self.mapView.addAnnotation(annotation)
+    }
     
 //    var coordinates = [CLLocationCoordinate2DMake(43.786266, -116.943101),
 //      CLLocationCoordinate2DMake(43.725804, -116.800402),
