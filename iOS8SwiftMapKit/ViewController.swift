@@ -20,20 +20,20 @@ class ViewController: UIViewController, MKMapViewDelegate {
     self.mapView.delegate = self
     
     let location = CLLocationCoordinate2D (latitude: 43.583962700238274, longitude: -116.67824378418591)
-    let span = MKCoordinateSpanMake(0.85, 0.85)
+    let span = MKCoordinateSpan(latitudeDelta: 5, longitudeDelta: 5) // 0.85 previously
     let region = MKCoordinateRegion(center: location, span: span)
     self.mapView.setRegion(region, animated: true)
     self.mapView.mapType = .Standard
     
-    for pollingLocation in PollingLocations.allPollingLocations {
-      let precinctLocation = CLLocationCoordinate2D(latitude: pollingLocation.latitude, longitude: pollingLocation.longitude)
-      let annotation = MKPointAnnotation()
-      annotation.setCoordinate(precinctLocation)
-      annotation.title = "\(pollingLocation.precinctNo): \(pollingLocation.name)".capitalizedString
-      annotation.subtitle = pollingLocation.address.capitalizedString
-      
-      self.mapView.addAnnotation(annotation)
-    }
+//    for pollingLocation in PollingLocations.allPollingLocations {
+//      let precinctLocation = CLLocationCoordinate2D(latitude: pollingLocation.latitude, longitude: pollingLocation.longitude)
+//      let annotation = MKPointAnnotation()
+//      annotation.setCoordinate(precinctLocation)
+//      annotation.title = "\(pollingLocation.precinctNo): \(pollingLocation.name)".capitalizedString
+//      annotation.subtitle = pollingLocation.address.capitalizedString
+//      
+//      self.mapView.addAnnotation(annotation)
+//    }
     
 //    var coordinates = [CLLocationCoordinate2DMake(43.786266, -116.943101),
 //      CLLocationCoordinate2DMake(43.725804, -116.800402),
@@ -53,6 +53,17 @@ class ViewController: UIViewController, MKMapViewDelegate {
     var rect: MKMapRect = MKMapRect(origin: neOrigin, size: size)
     var county = CountyOverlay(rect: rect)
     self.mapView.addOverlay(county)
+    
+    let ne = MKPointAnnotation()
+    ne.setCoordinate(northEast)
+    ne.title = "northEast"
+    self.mapView.addAnnotation(ne)
+    
+    let sw = MKPointAnnotation()
+    sw.setCoordinate(southWest)
+    sw.title = "southWest"
+    self.mapView.addAnnotation(sw)
+    
   }
   
   override func didReceiveMemoryWarning() {
