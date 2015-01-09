@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE71ECBD1A5FA31500FB4332 /* CountyOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE71ECBC1A5FA31500FB4332 /* CountyOverlay.swift */; };
+		BE71ECBF1A5FA71B00FB4332 /* CountyRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE71ECBE1A5FA71B00FB4332 /* CountyRenderer.swift */; };
+		BE71ECC11A5FA91400FB4332 /* canyon.png in Resources */ = {isa = PBXBuildFile; fileRef = BE71ECC01A5FA91400FB4332 /* canyon.png */; };
 		BE9261411A5A4C2B00D66F17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9261401A5A4C2B00D66F17 /* AppDelegate.swift */; };
 		BE9261431A5A4C2B00D66F17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9261421A5A4C2B00D66F17 /* ViewController.swift */; };
 		BE9261461A5A4C2B00D66F17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9261441A5A4C2B00D66F17 /* Main.storyboard */; };
@@ -31,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE71ECBC1A5FA31500FB4332 /* CountyOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountyOverlay.swift; sourceTree = "<group>"; };
+		BE71ECBE1A5FA71B00FB4332 /* CountyRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountyRenderer.swift; sourceTree = "<group>"; };
+		BE71ECC01A5FA91400FB4332 /* canyon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = canyon.png; sourceTree = "<group>"; };
 		BE92613B1A5A4C2B00D66F17 /* iOS8SwiftMapKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS8SwiftMapKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE92613F1A5A4C2B00D66F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE9261401A5A4C2B00D66F17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,8 +96,11 @@
 		BE92613D1A5A4C2B00D66F17 /* iOS8SwiftMapKit */ = {
 			isa = PBXGroup;
 			children = (
+				BE71ECC01A5FA91400FB4332 /* canyon.png */,
 				BEA5A4751A5BB2AF004D0655 /* vote-hereSmall.png */,
 				BEA5A4791A5BBC72004D0655 /* LaunchScreen.png */,
+				BE71ECBC1A5FA31500FB4332 /* CountyOverlay.swift */,
+				BE71ECBE1A5FA71B00FB4332 /* CountyRenderer.swift */,
 				BEA5A4711A5BA63A004D0655 /* PollingLocation.swift */,
 				BEA5A4731A5BA77D004D0655 /* PollingLocations.swift */,
 				BE9261401A5A4C2B00D66F17 /* AppDelegate.swift */,
@@ -212,6 +221,7 @@
 				BEA5A47A1A5BBC72004D0655 /* LaunchScreen.png in Resources */,
 				BE9261461A5A4C2B00D66F17 /* Main.storyboard in Resources */,
 				BE92614B1A5A4C2B00D66F17 /* LaunchScreen.xib in Resources */,
+				BE71ECC11A5FA91400FB4332 /* canyon.png in Resources */,
 				BEA5A4761A5BB2AF004D0655 /* vote-hereSmall.png in Resources */,
 				BE9261621A5A4CA400D66F17 /* LICENSE in Resources */,
 				BE9261481A5A4C2B00D66F17 /* Images.xcassets in Resources */,
@@ -234,8 +244,10 @@
 			files = (
 				BE9261431A5A4C2B00D66F17 /* ViewController.swift in Sources */,
 				BEA5A4721A5BA63A004D0655 /* PollingLocation.swift in Sources */,
+				BE71ECBF1A5FA71B00FB4332 /* CountyRenderer.swift in Sources */,
 				BEA5A4741A5BA77D004D0655 /* PollingLocations.swift in Sources */,
 				BE9261411A5A4C2B00D66F17 /* AppDelegate.swift in Sources */,
+				BE71ECBD1A5FA31500FB4332 /* CountyOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

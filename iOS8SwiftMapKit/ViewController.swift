@@ -41,6 +41,12 @@ class ViewController: UIViewController, MKMapViewDelegate {
     let overlay = MKPolygon(coordinates: &coordinates, count: coordinates.count)
     
     self.mapView.addOverlay(overlay)
+    
+    var origin: MKMapPoint = MKMapPoint(x: 43.786266, y: -116.943101)
+    var size: MKMapSize = MKMapSizeMake(400, 400)
+    var rect: MKMapRect = MKMapRect(origin: origin, size: size)
+    var county = CountyOverlay(rect: rect)
+    self.mapView.addOverlay(county)
   }
   
   override func didReceiveMemoryWarning() {
@@ -81,6 +87,19 @@ class ViewController: UIViewController, MKMapViewDelegate {
       view!.lineWidth = 3.0
       return view
     }
+    else if overlay is CountyOverlay {
+      /*
+      UIImage *magicMountainImage = [UIImage imageNamed:@"overlay_park"];
+      PVParkMapOverlayView *overlayView = [[PVParkMapOverlayView alloc] initWithOverlay:overlay overlayImage:magicMountainImage];
+      
+      return overlayView;
+*/
+      
+      let countyImage = UIImage(named: "canyon.png")
+      let view = CountyRenderer(overlay: overlay, image: countyImage!)
+      return view
+    }
+    
     return nil
   }
   
