@@ -42,9 +42,14 @@ class ViewController: UIViewController, MKMapViewDelegate {
     
     self.mapView.addOverlay(overlay)
     
-    var origin: MKMapPoint = MKMapPoint(x: 43.786266, y: -116.943101)
-    var size: MKMapSize = MKMapSizeMake(400, 400)
-    var rect: MKMapRect = MKMapRect(origin: origin, size: size)
+    var northEast = CLLocationCoordinate2DMake(43.85532635264545, -116.17790222851562)
+    var neOrigin: MKMapPoint = MKMapPointForCoordinate(northEast)
+    
+    var southWest = CLLocationCoordinate2DMake(43.358137025577584, -117.1392059394531)
+    var swOrigin = MKMapPointForCoordinate(southWest)
+    
+    var size: MKMapSize = MKMapSizeMake(swOrigin.x - neOrigin.x, swOrigin.y - neOrigin.y)
+    var rect: MKMapRect = MKMapRect(origin: neOrigin, size: size)
     var county = CountyOverlay(rect: rect)
     self.mapView.addOverlay(county)
   }
