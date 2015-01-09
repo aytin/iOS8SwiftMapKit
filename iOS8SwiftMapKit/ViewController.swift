@@ -35,12 +35,12 @@ class ViewController: UIViewController, MKMapViewDelegate {
       self.mapView.addAnnotation(annotation)
     }
     
-    var coordinates = [CLLocationCoordinate2DMake(43.786266, -116.943101),
-      CLLocationCoordinate2DMake(43.725804, -116.800402),
-      CLLocationCoordinate2DMake(43.735839, -116.696920)]
-    let overlay = MKPolygon(coordinates: &coordinates, count: coordinates.count)
-    
-    self.mapView.addOverlay(overlay)
+//    var coordinates = [CLLocationCoordinate2DMake(43.786266, -116.943101),
+//      CLLocationCoordinate2DMake(43.725804, -116.800402),
+//      CLLocationCoordinate2DMake(43.735839, -116.696920)]
+//    let overlay = MKPolygon(coordinates: &coordinates, count: coordinates.count)
+//    
+//    self.mapView.addOverlay(overlay)
     
     var northEast = CLLocationCoordinate2DMake(43.85532635264545, -116.17790222851562)
     var neOrigin: MKMapPoint = MKMapPointForCoordinate(northEast)
@@ -49,6 +49,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
     var swOrigin = MKMapPointForCoordinate(southWest)
     
     var size: MKMapSize = MKMapSizeMake(swOrigin.x - neOrigin.x, swOrigin.y - neOrigin.y)
+    var origin = MKMapPoint(x: swOrigin.x - neOrigin.x, y: swOrigin.y - neOrigin.y)
     var rect: MKMapRect = MKMapRect(origin: neOrigin, size: size)
     var county = CountyOverlay(rect: rect)
     self.mapView.addOverlay(county)
